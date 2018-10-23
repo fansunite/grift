@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/markbates/grift/cmd"
+	"github.com/fansunite/grift/cmd"
 )
 
 func main() {

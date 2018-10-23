@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"os/exec"
 
-	"github.com/markbates/grift/grift"
+	"github.com/fansunite/grift/grift"
 	"github.com/pkg/errors"
 )
 

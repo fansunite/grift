@@ -1,4 +1,4 @@
-module github.com/markbates/grift
+module github.com/fansunite/grift
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect

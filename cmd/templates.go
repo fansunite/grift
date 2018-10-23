@@ -6,7 +6,7 @@ package main
 import _ "{{.GriftsPackagePath}}"
 import "os"
 import "log"
-import "github.com/markbates/grift/grift"
+import "github.com/fansunite/grift/grift"
 import "path/filepath"
 
 func main() {
@@ -28,7 +28,7 @@ import (
 	"os"
 	"strings"
 
-	. "github.com/markbates/grift/grift"
+	. "github.com/fansunite/grift/grift"
 )
 
 var _ = Desc("hello", "Say Hello!")

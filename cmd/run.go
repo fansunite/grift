@@ -58,6 +58,7 @@ func run(args []string) error {
 			rargs = append(rargs, "-tags", "sqlite")
 		}
 	}
+	rargs = append(rargs, "-mod=vendor")
 	rargs = append(rargs, exePath)
 	rargs = append(rargs, args...)
 	if err := grift.RunSource(exec.Command("go", rargs...)); err != nil {
